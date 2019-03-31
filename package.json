@@ -4,7 +4,8 @@
   "description": "async",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose --coverage"
+    "test": "jest --verbose --coverage",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/Alwynblake/async#readme",
   "dependencies": {
     "eslint": "^5.16.0",
+    "faker": "^4.1.0",
     "jest": "^24.5.0"
   }
 }
